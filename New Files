@@ -1,0 +1,509 @@
+TEAM_JEDI = DarkRP.createJob("Jedi Youngling", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/jazzmcfly/jka/younglings/jka_young_anikan.mdl",
+  "models/jazzmcfly/jka/younglings/jka_young_female.mdl",
+  "models/jazzmcfly/jka/younglings/jka_young_male.mdl",
+  "models/jazzmcfly/jka/younglings/jka_young_shak.mdl"},
+   description = [[your a jedi youngling work hard to become strong in the force.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Jyoungling",
+   max = 0,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+     ply:SetMaxHealth(600)
+     ply:SetHealth(600)
+     ply:SetArmor(100)
+    end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi Padawan", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/grealms/characters/casualjedi/casualjedi_01.mdl",
+ "models/grealms/characters/casualjedi/casualjedi_02.mdl",
+"models/grealms/characters/casualjedi/casualjedi_03.mdl",
+"models/grealms/characters/casualjedi/casualjedi_04.mdl",
+"models/grealms/characters/casualjedi/casualjedi_05.mdl",
+"models/grealms/characters/casualjedi/casualjedi_06.mdl",
+"models/grealms/characters/casualjedi/casualjedi_07.mdl",
+"models/grealms/characters/casualjedi/casualjedi_08.mdl",
+"models/grealms/characters/casualjedi/casualjedi_09.mdl"},
+   description = [[You're a Padawan, you need to find a Master that can teach you within' the force.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Jpadawan",
+   max = 0,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+     ply:SetMaxHealth(800)
+ ply:SetHealth(800)
+   ply:SetArmor(100)
+      end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi Knight", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/grealms/characters/jedirobes/jedirobes_01.mdl",
+"models/grealms/characters/jedirobes/jedirobes_02.mdl",
+"models/grealms/characters/jedirobes/jedirobes_03.mdl",
+"models/grealms/characters/jedirobes/jedirobes_04.mdl",
+"models/grealms/characters/jedirobes/jedirobes_05.mdl",
+"models/grealms/characters/jedirobes/jedirobes_06.mdl",
+"models/grealms/characters/jedirobes/jedirobes_07.mdl",
+"models/grealms/characters/jedirobes/jedirobes_08.mdl",
+"models/grealms/characters/jedirobes/jedirobes_09.mdl"},
+   description = [[You are a a jedi knight train under your master to become a master yourself one day]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Jknight",
+   max = 0,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1000)
+   ply:SetHealth(1000)
+   ply:SetArmor(100)
+      end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi Master", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/grealms/characters/jedirobes/jedirobes_01.mdl",
+ "models/grealms/characters/jedirobes/jedirobes_02.mdl",
+ "models/grealms/characters/jedirobes/jedirobes_03.mdl",
+"models/grealms/characters/jedirobes/jedirobes_04.mdl",
+ "models/grealms/characters/jedirobes/jedirobes_05.mdl",
+ "models/grealms/characters/jedirobes/jedirobes_06.mdl",
+ "models/grealms/characters/jedirobes/jedirobes_07.mdl",
+"models/grealms/characters/jedirobes/jedirobes_08.mdl",
+ "models/grealms/characters/jedirobes/jedirobes_09.mdl"},
+   description = [[You are a Jedi Master and have not chosen a branch to study down in continue down this path and train extensivley and reach the rank of lord.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Jmaster",
+   max = 10,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1200)
+   ply:SetHealth(1200)
+   ply:SetArmor(100)
+      end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi Lord", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/gonzo/battlelordsskins/blue/bluebattlelord1.mdl",
+"models/gonzo/battlelordsskins/green/greenbattlelord2.mdl",
+"models/gonzo/battlelordsskins/purple/purplebattlelord3.mdl",
+ "models/gonzo/battlelordsskins/red/redbattlelord1.mdl",
+ "models/gonzo/battlelordsskins/white/whitebattlelord3.mdl"},
+   description = [[you are a jedi lord, You are a part of the Jedi Order. You've earned yourself the title of Lord, Through hard work and being experienced within' the force. ]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Jlord",
+   max = 10,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1400)
+   ply:SetHealth(1400)
+   ply:SetArmor(100)
+      end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi Temple Guard", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/player/swtor/arsenic/templeguard/templeguard.mdl"},
+   description = [[You're a Jedi Temple Guard, you guard the temple grounds. If you work hardly and become stronger in the force, you may become a part of the Jedi Council.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "JtGuard",
+   max = 15,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+     ply:SetMaxHealth(1600)
+   ply:SetHealth(1600)
+   ply:SetArmor(100)
+      end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi Low Council", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/player/jedi/bith.mdl",
+ "models/player/jedi/gotal.mdl",
+ "models/player/jedi/gungan.mdl",
+ "models/player/jedi/human.mdl",
+ "models/player/jedi/nautolan.mdl",
+ "models/player/jedi/pantoran.mdl",
+"models/player/jedi/quarren.mdl",
+"models/player/jedi/rodian.mdl",
+ "models/player/jedi/togruta.mdl",
+ "models/player/jedi/trandoshan.mdl",
+ "models/player/jedi/twilek.mdl",
+ "models/player/jedi/twilek2.mdl",
+"models/player/jedi/umbaran.mdl",
+"models/player/jedi/zabrak.mdl"},
+   description = [[You're a member of the Jedi Low Council.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "JLCouncil",
+   max = 5,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1800)
+   ply:SetHealth(1800)
+   ply:SetArmor(100)
+      end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi General", {
+   color = Color(0, 0, 255, 0.9	),
+   model = {"models/player/valley/battlemaster.mdl"},
+   description = [[You're a General within' the Jedi Order, your presence inspires other Jedi. ]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+   command = "Jgeneral",
+   max = 1,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+     ply:SetMaxHealth(2000)
+   ply:SetHealth(2000)
+   ply:SetArmor(100)
+end
+})
+TEAM_JEDI = DarkRP.createJob("Jedi High Council", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/cultist_kun/sw/coleman.mdl",
+ "models/cultist_kun/sw/mm.mdl",
+ "models/cultist_kun/sw/saesee_tiin.mdl",
+ "models/cultist_kun/sw/yarael_poof.mdl"},
+   description = [[You're a member within' the Jedi High Council. You're duty is to decided what to do next, and talk with the other High Council members.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "JHCouncil",
+   max = 9,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2200)
+   ply:SetHealth(2200)
+   ply:SetArmor(100)
+      end
+})
+TEAM_JEDI = DarkRP.createJob("Grand Master Luke", {
+   color = Color(0, 0, 255, 0.9),
+   model = {"models/player/valley/luke.mdl"},
+   description = [[your the Grand master manage the jedi council and make the right choices]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Jmasterluke",
+   max = 1,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2400)
+   ply:SetHealth(2400)
+   ply:SetArmor(100)
+        end
+})
+TEAM_SITH = DarkRP.createJob("Ren Initiate", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/player/sw/revan/revan.mdl"},
+   description = [[You're a member of the Knights of Ren, you follow the wise words of Kylo Ren and Supreme Leader Snoke. Work your way through the ranks, and gain more power]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Rinitiate",
+   max = 0,
+   salary = 300,
+   admin = 0,
+   vote = false,				
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(800)
+   ply:SetHealth(800)
+   ply:SetArmor(100)
+end
+})
+TEAM_SITH = DarkRP.createJob("Ren Adapt", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/gonzo/knightofren/knightofren.mdl"},
+   description = [[You've finally reached the rank of Adapt. Your power have grown stronger.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Radapt",
+   max = 0,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)							
+   ply:SetMaxHealth(1000)
+   ply:SetHealth(1000)
+   ply:SetArmor(100)
+end
+})
+TEAM_SITH = DarkRP.createJob("Knight Of Ren", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/gonzo/knightofren/knightofren.mdl"},
+   description = [[You're finally a Knight of Ren, and have been Accepted into the brotherhood, you're now a full fletched member of the Knights of Ren.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Rknight",
+   max = 0,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1200)
+   ply:SetHealth(1200)
+   ply:SetArmor(100)
+end
+})
+TEAM_SITH = DarkRP.createJob("Ren Crusader", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/player/swtor/arsenic/star/star.mdl",
+ "models/player/swtor/star/blue/star.mdl",
+"models/player/swtor/star/gray/star.mdl"},
+   description = [[You're now a Crusader of the Ren, you're a strong force wielder and capable to do more advanced tasks.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Rcrusader",
+   max = 0,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1300)
+   ply:SetHealth(1300)
+   ply:SetArmor(100)
+        end
+})
+TEAM_SITH = DarkRP.createJob("Ren Purger", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/gonzo/sithassassinangel/sithassassinangel.mdl"},
+   description = [[You're Kylo Rens Personal Assassin, you eliminate targets that Kylo Ren tells you to take out.]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+   command = "Rpurger",
+   max = 6,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1400)
+   ply:SetHealth(1400)
+   ply:SetArmor(100)
+      end
+})
+TEAM_SITH = DarkRP.createJob("Ren Sult", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/grealms/characters/revan_real/revan.mdl"},
+   description = [[As a Sult, you focus more on your force abilities than your effectivness in lightsaber combat.]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Rsult",
+   max = 6,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1600)
+   ply:SetHealth(1600)
+   ply:SetArmor(100)
+end
+})
+TEAM_SITH = DarkRP.createJob("Ren Adviser", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/player/swtor/arsenic/nemesis/nemesistest.mdl"},
+   description = [[You're Kylo Ren's Adviser, you talk with the other Advisers and Kylo ren. To figure out what the next move is going to be.]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+   command = "Radviser",
+   max = 10,
+   salary = 300,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+ ply:SetMaxHealth(2200)
+   ply:SetHealth(2200)
+   ply:SetArmor(100)
+end
+})
+TEAM_SITH = DarkRP.createJob("Kylo Ren", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/player/kyloren/kren.mdl"},
+   description = [[You're Kylo Ren, your the leader of the Knights of Ren. Snoke is your Master and you learn from him.]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+   command = "Rkyloren",
+   max = 1,
+   salary = 500,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2400)
+   ply:SetHealth(2400)
+   ply:SetArmor(100)
+        end
+
+})
+TEAM_SITH = DarkRP.createJob("Supreme Leader Snoke", {
+   color = Color(255, 0, 0, 0.9),
+   model = {"models/player/supreme_leader_snoke.mdl"},
+   description = [[You're Supreme Leader Snoke, You're Kylo Ren's master.]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+   command = "Rsnoke",
+   max = 1,
+   salary = 500,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Knights of Ren",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2400)
+   ply:SetHealth(2400)
+   ply:SetArmor(100)
+          end
+})
+TEAM_EXILED = DarkRP.createJob("Exile Greiver", {
+   color = Color(33, 95, 0, 0.9),
+   model = {"models/npc/star wars the force awakens/luke skywalker/spartanmark6/ep7_luke.mdl",
+"models/npc/star wars the force awakens/luke skywalker/spartanmark6/ep7_luke_stormtrooper.mdl"},
+   description = [[Your exiled]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Griever",
+   max = 0,
+   salary = 100,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Exiled",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(1700)
+   ply:SetHealth(1700)
+   ply:SetArmor(100)
+          end
+})
+TEAM_EXILED = DarkRP.createJob("Exile Avengeance", {
+   color = Color(33, 95, 0, 0.9),
+   model = {"models/gonzo/inquisitortempleguardmask/inquisitortempleguardmask.mdl"},
+   description = [[Your exiled]],
+   weapons = {"weapon_lightsaber_personal"},
+   command = "Avengeance",
+   max = 0,
+   salary = 100,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Exiled",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2200)
+   ply:SetHealth(2200)
+   ply:SetArmor(100)
+          end
+})
+TEAM_JEDI = DarkRP.createJob("Satele Shan", {
+ color = Color(0, 0, 255, 0.9),
+   model = {"models/grealms/characters/satele/satele.mdl"},
+   description = [[Satele shan's job ]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+command = "shan",
+   max = 1,
+   salary = 500,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2200)
+   ply:SetHealth(2200)
+   ply:SetArmor(100)
+          end
+})
+TEAM_JEDI = DarkRP.createJob("Akial", {
+ color = Color(0, 0, 255, 0.9),
+   model = {"models/church/swtor/jawa/cpt_jawa.mdl"},
+   description = [[Akial was a Jawa a diminutive sentient species that was native to the planet Tatooine in the Outer Rim Territories He disliked it when people acknowledged his heritage by saying Utinni a common word in the Jawa language to him as he could speak Basic without an accent ]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+command = "gorman",
+   max = 2,
+   salary = 2000,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2200)
+   ply:SetHealth(2200)
+   ply:SetArmor(100)
+          end
+})
+TEAM_JEDI = DarkRP.createJob("Yoda", {
+ color = Color(0, 0, 255, 0.9),
+   model = {"models/tfa/comm/gg/pm_sw_yodanojig.mdl"},
+   description = [[this is rayans job]],
+   weapons = {"weapon_lightsaber_personal", "weapon_lightsaber_personal_dual"},
+command = "Rayan",
+   max = 1,
+   salary = 2000,
+   admin = 0,
+   vote = false,
+   hasLicense = true,
+   candemote = false,
+   category = "Jedi Order",
+ PlayerSpawn = function(ply)
+   ply:SetMaxHealth(2200)
+   ply:SetHealth(2200)
+   ply:SetArmor(100)
+          end
+})
+
+GAMEMODE.DefaultTeam = TEAM_DEAFULT
